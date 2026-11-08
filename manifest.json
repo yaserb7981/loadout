@@ -1,0 +1,84 @@
+{
+  "name": "LOADOUT · لوداوت — Game Approach OS",
+  "short_name": "LOADOUT",
+  "description": "لوداوت: یک لوداوت، چهار آرنا — آنلاین، گیم روز، سوشال سرکل و نایت گیم در یک قیف واحد، با سینک ابری گیت‌هاب",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
+  "dir": "rtl",
+  "lang": "fa",
+  "categories": [
+    "productivity",
+    "lifestyle",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./assets/loadout-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/loadout-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/loadout-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/loadout-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ثبت اپروچ جدید",
+      "short_name": "ثبت اپروچ",
+      "url": "./index.html?action=log",
+      "icons": [
+        {
+          "src": "./assets/loadout-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "قیف واحد",
+      "short_name": "قیف",
+      "url": "./index.html?action=pipeline",
+      "icons": [
+        {
+          "src": "./assets/loadout-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "میز نوبت اینستاگرام",
+      "short_name": "میز نوبت",
+      "url": "./index.html?action=workbench",
+      "icons": [
+        {
+          "src": "./assets/loadout-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
