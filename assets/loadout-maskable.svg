@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="LOADOUT">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="86%">
+      <stop offset="0%" stop-color="#162034"/>
+      <stop offset="50%" stop-color="#0a0f19"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="core" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="34%" stop-color="#fbbf24"/>
+      <stop offset="74%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="62%" stop-color="#f59e0b" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <g transform="translate(256 256) scale(0.76) translate(-256 -256)">
+<circle cx="256" cy="256" r="200" fill="url(#halo)"/>
+
+  <!-- قاب چرخ -->
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="46"/>
+  <circle cx="256" cy="256" r="193" fill="none" stroke="url(#ringEdge)" stroke-width="2"/>
+
+  <!-- ۴ اسلات لوداوت -->
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#10b981" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#8b5cf6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#3b82f6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+
+  <!-- حلقه HUD داخلی -->
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <line x1="380.0" y1="256.0" x2="369.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375.8" y1="288.1" x2="365.1" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="363.4" y1="318.0" x2="353.9" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="343.7" x2="335.9" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="318.0" y1="363.4" x2="312.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="288.1" y1="375.8" x2="285.2" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="380.0" x2="256.0" y2="369.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="223.9" y1="375.8" x2="226.8" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="194.0" y1="363.4" x2="199.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="343.7" x2="176.1" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="148.6" y1="318.0" x2="158.1" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="136.2" y1="288.1" x2="146.9" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="132.0" y1="256.0" x2="143.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136.2" y1="223.9" x2="146.9" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="148.6" y1="194.0" x2="158.1" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="168.3" x2="176.1" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="194.0" y1="148.6" x2="199.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="223.9" y1="136.2" x2="226.8" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="132.0" x2="256.0" y2="143.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="288.1" y1="136.2" x2="285.2" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318.0" y1="148.6" x2="312.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="168.3" x2="335.9" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="363.4" y1="194.0" x2="353.9" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="375.8" y1="223.9" x2="365.1" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- سلکتور اسلات فعال -->
+  <path d="M256 40 L286 96 L226 96 Z" fill="#f59e0b"/>
+  <path d="M256 50 L273 88 L239 88 Z" fill="#fde68a"/>
+
+  <!-- هسته -->
+  <circle cx="256" cy="256" r="88" fill="#04060b"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#f59e0b" stroke-opacity="0.30" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="8"/>
+  <circle cx="256" cy="256" r="50" fill="#f59e0b" filter="url(#glow)" opacity="0.55"/>
+  <circle cx="256" cy="256" r="44" fill="url(#core)"/>
+  <circle cx="256" cy="256" r="44" fill="none" stroke="#fff7ed" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="256" cy="256" r="15" fill="#050810"/>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="#fde68a" stroke-opacity="0.45" stroke-width="2"/>
+
+</g>
+</svg>
