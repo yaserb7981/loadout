@@ -1,0 +1,389 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" font-family="Vazirmatn, Segoe UI, Tahoma, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#06090f"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="330" cy="400" r="330" fill="url(#halo1)"/>
+
+  <!-- آیکون اصلی -->
+  <g transform="translate(90 160) scale(0.94)">
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="28%" r="86%">
+      <stop offset="0%" stop-color="#162034"/>
+      <stop offset="50%" stop-color="#0a0f19"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="coreA" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="34%" stop-color="#fbbf24"/>
+      <stop offset="74%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="haloA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="62%" stop-color="#f59e0b" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringEdgeA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glowA" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bgA)"/>
+  <rect x="3" y="3" width="506" height="506" rx="113" fill="none" stroke="#f59e0b" stroke-opacity="0.16" stroke-width="3"/>
+  <circle cx="256" cy="256" r="200" fill="url(#haloA)"/>
+
+  <!-- قاب چرخ -->
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="46"/>
+  <circle cx="256" cy="256" r="193" fill="none" stroke="url(#ringEdgeA)" stroke-width="2"/>
+
+  <!-- ۴ اسلات لوداوت -->
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#10b981" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#8b5cf6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#3b82f6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+
+  <!-- حلقه HUD داخلی -->
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <line x1="380.0" y1="256.0" x2="369.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375.8" y1="288.1" x2="365.1" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="363.4" y1="318.0" x2="353.9" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="343.7" x2="335.9" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="318.0" y1="363.4" x2="312.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="288.1" y1="375.8" x2="285.2" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="380.0" x2="256.0" y2="369.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="223.9" y1="375.8" x2="226.8" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="194.0" y1="363.4" x2="199.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="343.7" x2="176.1" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="148.6" y1="318.0" x2="158.1" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="136.2" y1="288.1" x2="146.9" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="132.0" y1="256.0" x2="143.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136.2" y1="223.9" x2="146.9" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="148.6" y1="194.0" x2="158.1" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="168.3" x2="176.1" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="194.0" y1="148.6" x2="199.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="223.9" y1="136.2" x2="226.8" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="132.0" x2="256.0" y2="143.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="288.1" y1="136.2" x2="285.2" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318.0" y1="148.6" x2="312.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="168.3" x2="335.9" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="363.4" y1="194.0" x2="353.9" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="375.8" y1="223.9" x2="365.1" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- سلکتور اسلات فعال -->
+  <path d="M256 40 L286 96 L226 96 Z" fill="#f59e0b"/>
+  <path d="M256 50 L273 88 L239 88 Z" fill="#fde68a"/>
+
+  <!-- هسته -->
+  <circle cx="256" cy="256" r="88" fill="#04060b"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#f59e0b" stroke-opacity="0.30" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="8"/>
+  <circle cx="256" cy="256" r="50" fill="#f59e0b" filter="url(#glowA)" opacity="0.55"/>
+  <circle cx="256" cy="256" r="44" fill="url(#coreA)"/>
+  <circle cx="256" cy="256" r="44" fill="none" stroke="#fff7ed" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="256" cy="256" r="15" fill="#050810"/>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="#fde68a" stroke-opacity="0.45" stroke-width="2"/>
+</g>
+
+  <!-- نام -->
+  <text x="700" y="250" font-size="92" font-weight="900" fill="#ffffff" letter-spacing="6">LOADOUT</text>
+  <text x="700" y="310" font-size="40" font-weight="800" fill="#fcd34d" letter-spacing="2">لوداوت</text>
+  <text x="700" y="368" font-size="26" font-weight="700" fill="#94a3b8">یک لوداوت، چهار آرنا · One loadout, four arenas</text>
+
+  <!-- اسلات‌ها -->
+  <g font-size="24" font-weight="800">
+    <circle cx="712" cy="440" r="11" fill="#10b981"/><text x="738" y="449" fill="#e2e8f0">آنلاین گیم</text>
+    <circle cx="712" cy="486" r="11" fill="#f59e0b"/><text x="738" y="495" fill="#e2e8f0">گیم روز</text>
+    <circle cx="712" cy="532" r="11" fill="#8b5cf6"/><text x="738" y="541" fill="#e2e8f0">سوشال سرکل</text>
+    <circle cx="712" cy="578" r="11" fill="#3b82f6"/><text x="738" y="587" fill="#e2e8f0">نایت گیم</text>
+    <circle cx="1010" cy="440" r="11" fill="#fbbf24"/><text x="1036" y="449" fill="#e2e8f0">هسته = خودت</text>
+    <circle cx="1010" cy="486" r="11" fill="#ffffff" fill-opacity="0.35"/><text x="1036" y="495" fill="#e2e8f0">حلقه HUD</text>
+    <circle cx="1010" cy="532" r="11" fill="#fde68a"/><text x="1036" y="541" fill="#e2e8f0">سلکتور اسلات فعال</text>
+  </g>
+
+  <!-- اندازه‌ها -->
+  <g transform="translate(700 640)">
+    <text x="0" y="0" font-size="20" font-weight="800" fill="#64748b">اندازه‌های اپلیکیشن</text>
+  </g>
+  <g transform="translate(700 690)">
+    <g transform="scale(0.255) translate(0 0)">
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="28%" r="86%">
+      <stop offset="0%" stop-color="#162034"/>
+      <stop offset="50%" stop-color="#0a0f19"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="coreA" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="34%" stop-color="#fbbf24"/>
+      <stop offset="74%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="haloA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="62%" stop-color="#f59e0b" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringEdgeA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glowA" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bgA)"/>
+  <rect x="3" y="3" width="506" height="506" rx="113" fill="none" stroke="#f59e0b" stroke-opacity="0.16" stroke-width="3"/>
+  <circle cx="256" cy="256" r="200" fill="url(#haloA)"/>
+
+  <!-- قاب چرخ -->
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="46"/>
+  <circle cx="256" cy="256" r="193" fill="none" stroke="url(#ringEdgeA)" stroke-width="2"/>
+
+  <!-- ۴ اسلات لوداوت -->
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#10b981" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#8b5cf6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#3b82f6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+
+  <!-- حلقه HUD داخلی -->
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <line x1="380.0" y1="256.0" x2="369.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375.8" y1="288.1" x2="365.1" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="363.4" y1="318.0" x2="353.9" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="343.7" x2="335.9" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="318.0" y1="363.4" x2="312.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="288.1" y1="375.8" x2="285.2" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="380.0" x2="256.0" y2="369.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="223.9" y1="375.8" x2="226.8" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="194.0" y1="363.4" x2="199.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="343.7" x2="176.1" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="148.6" y1="318.0" x2="158.1" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="136.2" y1="288.1" x2="146.9" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="132.0" y1="256.0" x2="143.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136.2" y1="223.9" x2="146.9" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="148.6" y1="194.0" x2="158.1" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="168.3" x2="176.1" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="194.0" y1="148.6" x2="199.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="223.9" y1="136.2" x2="226.8" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="132.0" x2="256.0" y2="143.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="288.1" y1="136.2" x2="285.2" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318.0" y1="148.6" x2="312.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="168.3" x2="335.9" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="363.4" y1="194.0" x2="353.9" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="375.8" y1="223.9" x2="365.1" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- سلکتور اسلات فعال -->
+  <path d="M256 40 L286 96 L226 96 Z" fill="#f59e0b"/>
+  <path d="M256 50 L273 88 L239 88 Z" fill="#fde68a"/>
+
+  <!-- هسته -->
+  <circle cx="256" cy="256" r="88" fill="#04060b"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#f59e0b" stroke-opacity="0.30" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="8"/>
+  <circle cx="256" cy="256" r="50" fill="#f59e0b" filter="url(#glowA)" opacity="0.55"/>
+  <circle cx="256" cy="256" r="44" fill="url(#coreA)"/>
+  <circle cx="256" cy="256" r="44" fill="none" stroke="#fff7ed" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="256" cy="256" r="15" fill="#050810"/>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="#fde68a" stroke-opacity="0.45" stroke-width="2"/>
+</g>
+    <g transform="translate(210 14) scale(0.16)">
+  <defs>
+    <radialGradient id="bgB" cx="50%" cy="28%" r="86%">
+      <stop offset="0%" stop-color="#162034"/>
+      <stop offset="50%" stop-color="#0a0f19"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="coreB" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="34%" stop-color="#fbbf24"/>
+      <stop offset="74%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="haloB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="62%" stop-color="#f59e0b" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringEdgeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glowB" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bgB)"/>
+  <rect x="3" y="3" width="506" height="506" rx="113" fill="none" stroke="#f59e0b" stroke-opacity="0.16" stroke-width="3"/>
+  <circle cx="256" cy="256" r="200" fill="url(#haloB)"/>
+
+  <!-- قاب چرخ -->
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="46"/>
+  <circle cx="256" cy="256" r="193" fill="none" stroke="url(#ringEdgeB)" stroke-width="2"/>
+
+  <!-- ۴ اسلات لوداوت -->
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#10b981" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#8b5cf6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#3b82f6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+
+  <!-- حلقه HUD داخلی -->
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <line x1="380.0" y1="256.0" x2="369.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375.8" y1="288.1" x2="365.1" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="363.4" y1="318.0" x2="353.9" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="343.7" x2="335.9" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="318.0" y1="363.4" x2="312.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="288.1" y1="375.8" x2="285.2" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="380.0" x2="256.0" y2="369.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="223.9" y1="375.8" x2="226.8" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="194.0" y1="363.4" x2="199.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="343.7" x2="176.1" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="148.6" y1="318.0" x2="158.1" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="136.2" y1="288.1" x2="146.9" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="132.0" y1="256.0" x2="143.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136.2" y1="223.9" x2="146.9" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="148.6" y1="194.0" x2="158.1" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="168.3" x2="176.1" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="194.0" y1="148.6" x2="199.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="223.9" y1="136.2" x2="226.8" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="132.0" x2="256.0" y2="143.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="288.1" y1="136.2" x2="285.2" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318.0" y1="148.6" x2="312.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="168.3" x2="335.9" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="363.4" y1="194.0" x2="353.9" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="375.8" y1="223.9" x2="365.1" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- سلکتور اسلات فعال -->
+  <path d="M256 40 L286 96 L226 96 Z" fill="#f59e0b"/>
+  <path d="M256 50 L273 88 L239 88 Z" fill="#fde68a"/>
+
+  <!-- هسته -->
+  <circle cx="256" cy="256" r="88" fill="#04060b"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#f59e0b" stroke-opacity="0.30" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="8"/>
+  <circle cx="256" cy="256" r="50" fill="#f59e0b" filter="url(#glowB)" opacity="0.55"/>
+  <circle cx="256" cy="256" r="44" fill="url(#coreB)"/>
+  <circle cx="256" cy="256" r="44" fill="none" stroke="#fff7ed" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="256" cy="256" r="15" fill="#050810"/>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="#fde68a" stroke-opacity="0.45" stroke-width="2"/>
+</g>
+    <g transform="translate(330 34) scale(0.086)">
+  <defs>
+    <radialGradient id="bgC" cx="50%" cy="28%" r="86%">
+      <stop offset="0%" stop-color="#162034"/>
+      <stop offset="50%" stop-color="#0a0f19"/>
+      <stop offset="100%" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="coreC" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="34%" stop-color="#fbbf24"/>
+      <stop offset="74%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="haloC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="62%" stop-color="#f59e0b" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringEdgeC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glowC" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bgC)"/>
+  <rect x="3" y="3" width="506" height="506" rx="113" fill="none" stroke="#f59e0b" stroke-opacity="0.16" stroke-width="3"/>
+  <circle cx="256" cy="256" r="200" fill="url(#haloC)"/>
+
+  <!-- قاب چرخ -->
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="46"/>
+  <circle cx="256" cy="256" r="193" fill="none" stroke="url(#ringEdgeC)" stroke-width="2"/>
+
+  <!-- ۴ اسلات لوداوت -->
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#10b981" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 154.9 116.8 A 172 172 0 0 1 357.1 116.8" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 395.2 154.9 A 172 172 0 0 1 395.2 357.1" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#8b5cf6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 357.1 395.2 A 172 172 0 0 1 154.9 395.2" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#3b82f6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M 116.8 357.1 A 172 172 0 0 1 116.8 154.9" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="8" stroke-linecap="round" transform="translate(0,-9)"/>
+
+  <!-- حلقه HUD داخلی -->
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <line x1="380.0" y1="256.0" x2="369.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375.8" y1="288.1" x2="365.1" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="363.4" y1="318.0" x2="353.9" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="343.7" x2="335.9" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="318.0" y1="363.4" x2="312.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="288.1" y1="375.8" x2="285.2" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="380.0" x2="256.0" y2="369.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="223.9" y1="375.8" x2="226.8" y2="365.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="194.0" y1="363.4" x2="199.5" y2="353.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="343.7" x2="176.1" y2="335.9" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="148.6" y1="318.0" x2="158.1" y2="312.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="136.2" y1="288.1" x2="146.9" y2="285.2" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="132.0" y1="256.0" x2="143.0" y2="256.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="136.2" y1="223.9" x2="146.9" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="148.6" y1="194.0" x2="158.1" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168.3" y1="168.3" x2="176.1" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="194.0" y1="148.6" x2="199.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="223.9" y1="136.2" x2="226.8" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="256.0" y1="132.0" x2="256.0" y2="143.0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="288.1" y1="136.2" x2="285.2" y2="146.9" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318.0" y1="148.6" x2="312.5" y2="158.1" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="343.7" y1="168.3" x2="335.9" y2="176.1" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+  <line x1="363.4" y1="194.0" x2="353.9" y2="199.5" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="375.8" y1="223.9" x2="365.1" y2="226.8" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- سلکتور اسلات فعال -->
+  <path d="M256 40 L286 96 L226 96 Z" fill="#f59e0b"/>
+  <path d="M256 50 L273 88 L239 88 Z" fill="#fde68a"/>
+
+  <!-- هسته -->
+  <circle cx="256" cy="256" r="88" fill="#04060b"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#f59e0b" stroke-opacity="0.30" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="8"/>
+  <circle cx="256" cy="256" r="50" fill="#f59e0b" filter="url(#glowC)" opacity="0.55"/>
+  <circle cx="256" cy="256" r="44" fill="url(#coreC)"/>
+  <circle cx="256" cy="256" r="44" fill="none" stroke="#fff7ed" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="256" cy="256" r="15" fill="#050810"/>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="#fde68a" stroke-opacity="0.45" stroke-width="2"/>
+</g>
+    <text x="65" y="152" font-size="15" fill="#64748b" text-anchor="middle">512</text>
+    <text x="253" y="118" font-size="15" fill="#64748b" text-anchor="middle">192</text>
+    <text x="352" y="98" font-size="15" fill="#64748b" text-anchor="middle">96</text>
+  </g>
+
+  <text x="700" y="872" font-size="15" fill="#3f4a5c">LOADOUT · Game Approach OS · v9.0 · Sanandaj 2026</text>
+</svg>
